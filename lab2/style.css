@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: "Inter", serif;
+    background-color: white;
+    font-family: "Inter", serif;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 2em;
+    padding-bottom: 2.5em;
+}
+#header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eafdc9;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 0 3px grey;
+
+}
+
+#empty {
+    width: 100px;
+}
+
+#back
+{
+    margin: 1em;
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: black;
+    border: 1px solid black;
+    text-decoration: none;
+    transition: 0.25s;
+}
+
+#back:hover
+{
+    background-color: black;
+    color: white;
+}

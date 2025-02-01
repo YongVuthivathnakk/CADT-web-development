@@ -9,9 +9,8 @@ body
 {
     font-family: "Inter", serif;
     display: flex;
-    justify-content: center;
     align-items: center;
-    padding: 2em 2em 2em 2em;
+    padding: 0em 0em 2em 0em;
     width: 100%;
     gap: 4em;
     flex-direction: column;
@@ -19,14 +18,25 @@ body
 }
 
 
-
-#main
-{
+header {
     width: 100%;
+    background-color: white;
+    height: 75px;
+    box-shadow: 0 0 3px grey;
+    position: fixed;
     display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    gap: 3em;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+
+main
+{
+    margin-top: 10em;
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
 }
 
 .exercise-container
