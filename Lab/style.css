@@ -18,17 +18,41 @@ body
 }
 
 
-header {
-    width: 100%;
-    background-color: white;
-    height: 75px;
-    box-shadow: 0 0 3px grey;
+#header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eafdc9;
     position: fixed;
+    width: 100%;
+    box-shadow: 0 0 3px grey;
+    z-index: 1;
+}
+
+#back
+{
+    margin: 1em;
+    width: 100px;
+    height: 30px;
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 1;
+    border-radius: 5px;
+    color: black;
+    border: 1px solid black;
+    text-decoration: none;
+    transition: 0.25s;
 }
+
+#back:hover
+{
+    background-color: black;
+    color: white;
+}
+
+
 
 
 main
