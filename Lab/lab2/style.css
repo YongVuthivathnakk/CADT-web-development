@@ -24,11 +24,23 @@ body
     position: fixed;
     width: 100%;
     box-shadow: 0 0 3px grey;
-
 }
 
 #empty {
     width: 100px;
+}
+
+
+main
+{
+    padding-top: 7.5em;
+    align-self: center;
+    justify-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5em;
 }
 
 #back
@@ -51,4 +63,61 @@ body
 {
     background-color: black;
     color: white;
+}
+
+
+.exercise-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.challenge-header {
+    height: 75px;
+    display: flex;
+    align-items: center;
+    background-color: #fff875;
+    padding-left: 2.5em;
+    border-radius: 10px 10px 0 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5em;
+    padding: 2em 2.5em 2.5em 2.5em;
+}
+
+
+#button-container
+{
+    display: flex;
+    padding: 0 2em 0 2em;
+    justify-content: center;
+    align-items: center;
+    width: 650px;
+}
+
+.start-btn {
+    padding: 0.5em;
+    border: 1px solid black;
+    width: 100px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.25s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+.start-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+#my-output {
+    display: flex;
+    gap: 2em;
 }
