@@ -9,9 +9,8 @@ body
 {
     font-family: "Inter", serif;
     display: flex;
-    justify-content: center;
     align-items: center;
-    padding: 2em 2em 2em 2em;
+    padding: 0em 0em 2em 0em;
     width: 100%;
     gap: 4em;
     flex-direction: column;
@@ -19,19 +18,54 @@ body
 }
 
 
-
-#main
+#header
 {
-    width: 100%;
     display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    gap: 3em;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eafdc9;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 0 3px grey;
+    z-index: 1;
+}
+
+#back
+{
+    margin: 1em;
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: black;
+    border: 1px solid black;
+    text-decoration: none;
+    transition: 0.25s;
+}
+
+#back:hover
+{
+    background-color: black;
+    color: white;
+}
+
+
+
+
+main
+{
+    margin-top: 10em;
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
 }
 
 .exercise-container
 {
-    height: 450px;
+    height: 500px;
     width: 500px;
     display: flex;
     align-items: center;

@@ -2,9 +2,6 @@
 
 
 
-
-
-
     // Challenge 1
 let start1 = document.getElementById("start1");
 let output1 = document.getElementById("output1");
@@ -77,6 +74,9 @@ start6.onclick = function () {
     }
     output6.textContent = challenge6(arrayOfVotes); 
 }
+
+
+
 
 
 

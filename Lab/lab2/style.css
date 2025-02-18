@@ -21,9 +21,9 @@ body
     justify-content: space-between;
     align-items: center;
     background-color: #eafdc9;
-    border-bottom: 1px solid black;
     position: fixed;
     width: 100%;
+    box-shadow: 0 0 3px grey;
 }
 
 #empty {
@@ -120,9 +120,4 @@ main
 #my-output {
     display: flex;
     gap: 2em;
-}
-
-#output1 {
-    align-self: center;
-    justify-self: center;
 }
